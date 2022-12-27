@@ -35,6 +35,12 @@
             text-align: center;
         }
 
+        main {
+            background-color: lightslategray;
+            border-radius: 10px;
+            text-align: center;
+        }
+
         #site-footer {
             background-color: greenyellow;
             border-radius: 10px;
@@ -50,49 +56,33 @@
 
 <body>
 
-    <header>
-        <h1>This is my header!</h1>
-    </header>
-    <nav>
-        <h3>This is my navbar!</h3>
-    </nav>
     <main>
-        <article>
-            <header>
-                <h4>This is my article header!</h4>
-            </header>
-            <section>
-                <p>This is my article section</p>
-            </section>
-            <footer>
-                <p>This is my article footer!</p>
-            </footer>
-        </article>
-    </main>
-
-    <article>
+        <h1>Main Content</h1>
         <header>
-            <h4>This is my 2nd article header!</h4>
+            <h3>Document Header</h3>
         </header>
-        <div id="special-div">
-            <section>
-                <p>This is my 2nd article section</p>
-            </section>
-            <aside>
-                <p>This is my 2nd article aside</p>
-            </aside>
-        </div>
+        <nav>
+            <h3>Document Navigation</h3>
+        </nav>
+        <article>
+            <h2>Document Article</h2>
+            <div id="special-div">
+                <figure>
+                    <img src="/images/html5.png" alt="HTML Icon" height="50">
+                    <figcaption>Caption</figcaption>
+                </figure>
+                <aside>
+                    <h3>Sidebar</h3>
+                </aside>
+            </div>
+        </article>
+        <section>
+            <h3>Document Section</h3>
+        </section>
         <footer>
-            <p>This is my 2nd article footer!</p>
+            <h4>Document Footer</h4>
         </footer>
-    </article>
-
-    <footer id="site-footer">
-        <p>This is the sites footer</p>
-    </footer>
-
-
-
+    </main>
 
 </body>
 
